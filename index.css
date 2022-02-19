@@ -1,4 +1,4 @@
-/* Generated on: Thu Feb 17 2022 08:19:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sat Feb 19 2022 10:51:47 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -988,8 +988,14 @@
    }
    
    .home-one-section {
+     position: static;
      height: 200px;
      background-color: #daffc5;
+     opacity: 1;
+     outline-color: #1e1c1a;
+     outline-offset: 0px;
+     outline-style: none;
+     outline-width: 3px;
    }
    
    .numbers-sections {
@@ -1918,6 +1924,12 @@
        -webkit-align-items: center;
        -ms-flex-align: center;
        align-items: center;
+     }
+   
+     .numbers-wrapper {
+       opacity: 0;
+       background-clip: border-box;
+       -webkit-text-fill-color: inherit;
      }
    
      .phone-hero-section {
